@@ -25,5 +25,28 @@ namespace MVC.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Criar(Endereco endereco)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Enderecos.Add(endereco);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(endereco);
+        }
+
+        public IActionResult Editar(int Id)
+        {
+            var endereco = _context.Enderecos.Find(Id);
+
+            if (endereco == null)
+                return NotFound();
+
+
+            return View(endereco);
+        }
     }
 }

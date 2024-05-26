@@ -134,3 +134,4 @@ D:\Projetos\Teste Pratico\MVC\obj\Debug\net8.0\refint\MVC.dll
 D:\Projetos\Teste Pratico\MVC\obj\Debug\net8.0\MVC.pdb
 D:\Projetos\Teste Pratico\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 D:\Projetos\Teste Pratico\MVC\obj\Debug\net8.0\ref\MVC.dll
+D:\Projetos\Teste Pratico\MVC\obj\Debug\net8.0\MVC.sourcelink.json

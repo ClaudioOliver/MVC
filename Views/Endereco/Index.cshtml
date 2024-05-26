@@ -4,7 +4,7 @@
     ViewData["Title"] = "Listagem de Endereço";
 }
 
-<h2>Endereço</h2>
+<h2>Endereços</h2>
 
 <p>
     <a asp-action="Criar">Novo Endereço</a>
@@ -34,6 +34,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Uf)
             </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -62,9 +63,9 @@
                     @Html.DisplayFor(model => item.Uf)
                 </td>
                 <td>
-                    <a asp-action="Editar" asp-route-itemid="item.Id">Editar</a> |
-                    <a asp-action="Detalhes" asp-route-itemid="item.Id">Detalhes</a> |
-                    <a asp-action="Deletar" asp-route-itemid="item.Id">Deletar</a> |
+                    <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a> |
                 </td>
             </tr>
 
