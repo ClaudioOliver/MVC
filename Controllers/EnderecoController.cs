@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MVC.Context;
@@ -48,5 +49,34 @@ namespace MVC.Controllers
 
             return View(endereco);
         }
+
+        public IActionResult ExportarEnderecos()
+        {
+            // Buscar todos os endereços do banco de dados
+            var enderecos = _context.Enderecos.ToList();
+
+            // Verificar se existem endereços para exportar
+            if (!enderecos.Any())
+            {
+                return NotFound("Não há endereços para exportar.");
+            }
+
+            // Criar StringBuilder para construir o CSV
+            StringBuilder csvData = new StringBuilder();
+
+            // Cabeçalho do CSV (opcional)
+            csvData.AppendLine("Id,Logradouro,Bairro,Cidade,Estado,CEP");
+
+            // Converter endereços para linhas CSV
+            foreach (var endereco in enderecos)
+            {
+                csvData.AppendLine($"{endereco.Id},{endereco.Logradouro},{endereco.Bairro},{endereco.Cidade},{endereco.Uf},{endereco.Cep}");
+            }
+
+            // Retornar arquivo CSV
+            return File(Encoding.UTF8.GetBytes(csvData.ToString()), "text/csv", "enderecos.csv");
+        }
+
+
     }
 }
