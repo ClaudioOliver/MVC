@@ -1,6 +1,9 @@
-Criação do banco de dados: Via Migrations
-Para adicionar a Migrations : dotnet ef migrations add AdcionaTabelas    
-Para Executar a Migrations : dotnet ef database update   
+📟Criação do banco de dados automatomatica atraves do Entity Framework (Models): Via Migrations
+    
+    Para adicionar a Migrations : dotnet ef migrations add AdcionaTabelas    
+    Para Executar a Migrations : dotnet ef database update   
+
+📟Criação do Banco de Dados:
 
 📘Criação via Script Banco de dados:
 
