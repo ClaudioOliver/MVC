@@ -44,12 +44,33 @@ namespace MVC.Controllers
             var endereco = _context.Enderecos.Find(Id);
 
             if (endereco == null)
-                return NotFound();
-
+                return RedirectToAction(nameof(Index));
 
             return View(endereco);
         }
 
+        [HttpPost]
+        public IActionResult Editar(Endereco endereco)
+        {
+            _context.Update(endereco);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int Id)
+        {
+            var endereco = _context.Enderecos.Find(Id);
+            return View(endereco);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Endereco endereco)
+        {
+            _context.Remove(endereco);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
         public IActionResult ExportarEnderecos()
         {
             // Buscar todos os endereços do banco de dados
