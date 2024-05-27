@@ -4,19 +4,36 @@ Para Executar a Migrations : dotnet ef database update
 
 📘Criação via Script Banco de dados:
 
-![image](https://github.com/ClaudioOliver/MVC/assets/115963003/3c0f84ba-9d59-4f47-bc0e-33e83568023c)
+    CREATE DATABASE EnderecoDB;
+    USE EnderecoDB;
 
-CREATE DATABASE EnderecoDB;
-USE EnderecoDB;
+
 
 📘Criar Tabela Usuario:
 
-![image](https://github.com/ClaudioOliver/MVC/assets/115963003/d5ff9ae1-0f4a-4332-a3bf-08b76fac51cc)
+    CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    login VARCHAR(255) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
 
 
 📘Criar Tabela Endereços
 
-![image](https://github.com/ClaudioOliver/MVC/assets/115963003/bcd94335-5b46-4543-98bb-97a1d04de146)
+    CREATE TABLE Enderecos (
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Cep VARCHAR(8) NOT NULL,
+    Logradouro VARCHAR(255) NOT NULL,
+    Bairro VARCHAR(255) NOT NULL,
+    Cidade VARCHAR(255) NOT NULL,
+    Uf VARCHAR(2) NOT NULL,
+    Numero INT NOT NULL,
+    usuario_id INT NOT NULL,
+    FOREIGN KEY (LoginID) REFERENCES Usuarios(Id)
+);
+
 
 
 🎯TELAS DO SISTEMA MVC:🎯
