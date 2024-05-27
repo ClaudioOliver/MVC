@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = d:\Projetos\Teste Pratico\MVC\
+build_property.ProjectDir = D:\Projetos\Teste Pratico\MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Projetos\Teste Pratico\MVC
+build_property.MSBuildProjectDirectory = D:\Projetos\Teste Pratico\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Endereco/Criar.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Endereco/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cQ3JpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Endereco/Delete.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Endereco/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Endereco/Editar.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Endereco/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Endereco/Index.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Endereco/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Home/Index.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Home/Privacy.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Shared/Error.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Usuario/Login.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Usuario/Register.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Usuario/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/_ViewImports.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/_ViewStart.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Projetos/Teste Pratico/MVC/Views/Shared/_Layout.cshtml]
+[D:/Projetos/Teste Pratico/MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
